@@ -1,0 +1,21 @@
+/.bundle/
+/.yardoc
+/_yardoc/
+/coverage/
+/doc/
+/pkg/
+/spec/reports/
+/tmp/
+*.gem
+/.idea
+*.swp
+.history/*
+
+# rspec failure tracking
+.rspec_status
+
+# VSCode settings
+settings.json
+
+# ctags
+tags

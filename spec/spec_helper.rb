@@ -1,5 +1,6 @@
 require 'bundler/setup'
-require 'cortex/client/ruby'
+require 'webmock/rspec'
+require 'cortex_client'
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure

@@ -1,4 +1,3 @@
 source 'https://rubygems.org'
-
-# Specify your gem's dependencies in cortex-client-ruby.gemspec
+# Specify your gem's dependencies in cortex_client-client-ruby.gemspec
 gemspec

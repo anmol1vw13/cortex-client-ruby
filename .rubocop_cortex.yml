@@ -1,0 +1,22 @@
+Metrics/LineLength:
+  Max: 500
+
+Style/RedundantSelf:
+  Enabled: false
+
+Style/AndOr:
+  Enabled: false
+
+Style/RaiseArgs:
+  Enabled: false
+
+Airbnb/ModuleMethodInWrongFile:
+  Enabled: false
+
+Airbnb/OptArgParameters:
+  Enabled: false
+
+AllCops:
+  Exclude:
+    - 'bin/**/*'
+    - './lib/proto/*'

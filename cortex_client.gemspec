@@ -1,16 +1,15 @@
 lib = File.expand_path('lib', __dir__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'cortex/client/ruby/version'
+require 'cortex_client/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'cortex-client-ruby'
-  spec.version       = Cortex::Client::Ruby::VERSION
-  spec.authors       = ['Kernel Plus']
-  spec.email         = ['kernel-user-experience@go-jek.com']
+  spec.name          = 'anmol_cortex_client_ruby'
+  spec.version       = CortexClient::VERSION
+  spec.authors       = ['Anmol Vijaywargiya', 'Bhumika Goyal']
+  spec.email         = ['anmol.vijaywargiya@gojek.com', 'bhumika.goyal@gojek.com']
 
-  spec.summary       = 'client to push metrics to cortex'
+  spec.summary       = 'Client to push resource to cortex'
   spec.description   = ''
-  spec.homepage      = 'https://kernel.gojek.dev'
   spec.license       = 'MIT'
 
   # Specify which files should be added to the gem when it is released.
@@ -26,4 +25,8 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'rake', '~> 10.0'
   spec.add_development_dependency 'rspec', '~> 3.0'
   spec.add_development_dependency 'rubocop-airbnb', '1.0.0'
+  spec.add_runtime_dependency 'google-protobuf', '3.11.4'
+  spec.add_development_dependency 'webmock', '~> 3'
+  spec.add_runtime_dependency 'snappy_ext', '0.1.2'
+  spec.add_runtime_dependency 'http', '~> 4.1'
 end

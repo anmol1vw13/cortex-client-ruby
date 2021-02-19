@@ -3,7 +3,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'cortex_client/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'anmol_cortex_client_ruby'
+  spec.name          = 'anmol_2_cortex_client_ruby'
   spec.version       = CortexClient::VERSION
   spec.authors       = ['Anmol Vijaywargiya', 'Bhumika Goyal']
   spec.email         = ['anmol.vijaywargiya@gojek.com', 'bhumika.goyal@gojek.com']

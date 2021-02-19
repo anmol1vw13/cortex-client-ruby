@@ -1,4 +1,5 @@
 # Cortex Client
+[![Build Status] (https://github.com/anmol1vw13/cortex-client-ruby/workflows/Push%20Cortex%20Client/badge.svg?branch=master)]
 
 ## About
 It is a ruby library to push timeseries metrics to cortex.
